@@ -1,0 +1,75 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative; 
+    min-height: 100%;
+    // font-size: 62.5%;
+    animation: fadein 1s ease;
+    -moz-animation: fadein 1s ease; /* Firefox */
+    -webkit-animation: fadein 1s ease; /* Safari and Chrome */
+    -o-animation: fadein 1s ease; /* Opera */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+body {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    font-family: Kanit;
+    position: relative;
+}
+$main-green :#59ce4e ;
+.nav-item {
+    margin-left: 1em;
+    margin-right: 1em;
+    a {
+        font-size: 1.1rem;
+    }
+}
+.nav-link {
+    transition: all ease-in-out 0.1s;
+    color: white !important;
+}
+.nav-link:hover {
+    background-color: gray;
+    transition: ease all 0.5s;
+    color: gold !important;
+    transform: scale(1.15);
+}
+.main__logo {
+    max-width: 5rem;
+    width: 100%;
+}
+footer {
+    color: whitesmoke;
+    background-color: rgb(66, 66, 66);
+    min-height: fit-content;
+    min-width: fit-content;
+    position: absolute;
+    padding: 1em;
+    left: 0;
+    bottom: -10em;
+    width: 100%;
+}
+$main-green :#a0ce4e ;
+.table-bordered {
+    font-size: 1.2rem;
+}
+.mail {
+    color: black
+}
+.mail:hover {
+    color: black
+
+}
+@import "home";
+@import "regis";
