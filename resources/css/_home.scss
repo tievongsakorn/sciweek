@@ -9,11 +9,11 @@
 .home_btn-box {
     // border: gray 2px solid;
     text-align: center;
-    min-height: 5rem;
+    min-height: 4rem;
     background-color: white;
     color: black;
-    margin: auto;
     padding: 0.5rem;
+    height: 6rem;
     transition: 0.1s ease-in ;
     border-radius: 2rem; 
     border: 2px white solid;
@@ -24,6 +24,7 @@
     text-decoration: none;
     color: black;
     border: 2px $main-green solid;
+    
 }
 
 .carousel-cell {
@@ -37,5 +38,10 @@
         width: 300px;
         height: 170px;
     }
+    p {
+        overflow: visible;
+    }
   }
+
+
   

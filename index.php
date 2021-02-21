@@ -51,7 +51,10 @@
                         <a class="nav-link" href="?page=regis">สมัครเข้าร่วมประกวด</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?page=online-event">นิทรรศการออนไลน์</a>
+                        <a class="nav-link" href="?page=online-event">Live กิจกรรม</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?page=check">ตรวจสอบรายชื่อ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="?page=schedule">กำหนดการ</a>

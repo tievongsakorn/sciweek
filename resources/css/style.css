@@ -1,0 +1,161 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
+  animation: fadein 1s ease;
+  -moz-animation: fadein 1s ease;
+  /* Firefox */
+  -webkit-animation: fadein 1s ease;
+  /* Safari and Chrome */
+  -o-animation: fadein 1s ease;
+  /* Opera */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: #f1f1f1;
+  min-height: 100vh;
+  font-family: Kanit;
+  position: relative;
+}
+
+.nav-item {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.nav-item a {
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  -webkit-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s;
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: gray;
+  -webkit-transition: ease all 0.5s;
+  transition: ease all 0.5s;
+  color: gold !important;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.main__logo {
+  max-width: 5rem;
+  width: 100%;
+}
+
+footer {
+  color: whitesmoke;
+  background-color: #424242;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  position: absolute;
+  padding: 1em;
+  left: 0;
+  bottom: -10em;
+  width: 100%;
+}
+
+.table-bordered {
+  font-size: 1.2rem;
+}
+
+.mail {
+  color: black;
+}
+
+.mail:hover {
+  color: black;
+}
+
+.banner {
+  width: 100%;
+  background-color: #a0ce4e;
+}
+
+.home_btn-box {
+  text-align: center;
+  min-height: 4rem;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  height: 6rem;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+  border-radius: 2rem;
+  border: 2px white solid;
+}
+
+.home_btn-box:hover {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  text-decoration: none;
+  color: black;
+  border: 2px #a0ce4e solid;
+}
+
+.carousel-cell {
+  margin-right: 1.5rem;
+  width: 300px;
+  height: 170px;
+  overflow: hidden;
+  border: white 5px solid;
+}
+
+.carousel-cell img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 170px;
+}
+
+.carousel-cell p {
+  overflow: visible;
+}
+
+.regis_box {
+  width: 100%;
+  height: 150px;
+}
+
+.regis_box-link {
+  text-decoration: none;
+  color: black;
+}
+
+.regis_box-link :hover {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
